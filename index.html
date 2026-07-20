@@ -1,153 +1,179 @@
-/* =========================
-   BLOCS DU PORTFOLIO
-========================= */
+<!DOCTYPE html>
+<html lang="fr">
 
-.section {
-    max-width: 1100px;
-    margin: 40px auto;
-    padding: 30px;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Portfolio cartographie - Rodrigue da Silva</title>
 
-/* Bloc principal */
-.card {
-    background-color: #ffffff;
-    border-radius: 12px;
-    padding: 30px;
-    margin-bottom: 30px;
-
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-
-    border: 1px solid #e6e6e6;
-}
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
 
-/* Titre des blocs */
-.card h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
+<body>
 
-    font-size: 1.8rem;
-    color: #1f2937;
-}
+    <!-- =========================
+         BANDEAU PRINCIPAL
+    ========================== -->
 
+    <header class="hero">
 
-/* Texte */
-.card p {
-    line-height: 1.7;
-    color: #4b5563;
-}
+        <h1>Rodrigue da Silva</h1>
 
+        <p>
+            Géomaticien | Cartographe | Analyste données spatiales
+        </p>
 
-/* Bloc avec image + texte */
-.card-flex {
-    display: flex;
-    align-items: center;
-    gap: 35px;
-}
+        <p>
+            Portfolio de projets SIG, cartographie numérique et webmapping
+        </p>
+
+    </header>
 
 
-/* Image dans un bloc */
-.card-image {
-    width: 250px;
-    height: 250px;
 
-    object-fit: cover;
+    <!-- =========================
+         PRESENTATION
+    ========================== -->
 
-    border-radius: 10px;
-}
+    <section class="profile">
 
+        <img 
+            src="images/photo.jpg"
+            alt="Photo de profil">
 
-/* Grille de projets */
-.project-grid {
-    display: grid;
+        <div>
 
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            <h2>À propos</h2>
 
-    gap: 25px;
-}
+            <p>
+                Géomaticien spécialisé en analyse spatiale, cartographie
+                et valorisation de données géographiques.
+            </p>
 
+            <p>
+                Ce portfolio présente des projets réalisés autour des
+                systèmes d'information géographique, du webmapping et
+                de l'analyse territoriale.
+            </p>
 
-/* Carte projet */
-.project-card {
-    background: white;
+        </div>
 
-    border-radius: 12px;
-
-    overflow: hidden;
-
-    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-
-    transition: transform 0.2s ease;
-}
+    </section>
 
 
-.project-card:hover {
-    transform: translateY(-5px);
-}
+
+    <!-- =========================
+         COMPETENCES
+    ========================== -->
+
+    <section class="skills">
 
 
-/* Image projet */
-.project-card img {
-    width: 100%;
-    height: 180px;
+        <div class="skill-card">
 
-    object-fit: cover;
-}
+            <h3>SIG</h3>
 
+            <p>
+                QGIS, ArcGIS Pro, PostGIS,
+                gestion et analyse de données spatiales.
+            </p>
 
-/* Contenu projet */
-.project-content {
-    padding: 20px;
-}
+        </div>
 
 
-.project-content h3 {
-    margin-top: 0;
 
-    color: #111827;
-}
+        <div class="skill-card">
 
+            <h3>Webmapping</h3>
 
-.project-content p {
-    color: #6b7280;
-    line-height: 1.6;
-}
+            <p>
+                HTML, CSS, JavaScript,
+                Leaflet, cartes interactives.
+            </p>
 
-
-/* Bouton */
-.btn {
-    display: inline-block;
-
-    margin-top: 15px;
-    padding: 10px 18px;
-
-    border-radius: 6px;
-
-    background-color: #2563eb;
-    color: white;
-
-    text-decoration: none;
-
-    transition: background-color 0.2s ease;
-}
+        </div>
 
 
-.btn:hover {
-    background-color: #1d4ed8;
-}
+
+        <div class="skill-card">
+
+            <h3>Analyse spatiale</h3>
+
+            <p>
+                Python, R, télédétection,
+                traitement d'images satellites.
+            </p>
+
+        </div>
 
 
-/* Responsive */
-@media (max-width: 700px) {
+    </section>
 
-    .card-flex {
-        flex-direction: column;
-    }
 
-    .card-image {
-        width: 100%;
-        height: auto;
-    }
 
-}
+    <!-- =========================
+         PROJETS
+    ========================== -->
+
+    <section class="section">
+
+        <div class="card">
+
+            <h2>Projets cartographiques</h2>
+
+            <p>
+                Découvrez mes réalisations en cartographie,
+                analyse spatiale et développement d'applications
+                web SIG.
+            </p>
+
+
+            <a 
+                class="btn"
+                href="projets.html">
+
+                Voir les projets
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         LIENS
+    ========================== -->
+
+    <section class="section">
+
+        <div class="card">
+
+            <h2>Contact et ressources</h2>
+
+            <p>
+                Retrouvez mes projets et mon code source :
+            </p>
+
+
+            <a 
+                class="btn"
+                href="https://github.com/rodrigue-da-silva-sig"
+                target="_blank">
+
+                GitHub
+
+            </a>
+
+
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
