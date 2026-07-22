@@ -14,5 +14,23 @@ L.tileLayer(
     }
 ).addTo(mapMini);
 
+fetch("js/SSD.geojson")
+  .then(response => response.json())
+  .then(data => {
+
+    L.geoJSON(data).addTo(map);
+
+  })
+  .catch(error => console.error("Erreur GeoJSON :", error));
+
+fetch("js/TNS.geojson")
+  .then(response => response.json())
+  .then(data => {
+
+    L.geoJSON(data).addTo(map);
+
+  })
+  .catch(error => console.error("Erreur GeoJSON :", error));
+
 L.marker([48.8703, 2.4897]).addTo(mapMini);
 L.marker([2.15, 15.80]).addTo(mapMini);
