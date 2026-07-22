@@ -286,6 +286,7 @@ body {
 .mini-carte {
     width: 350px;
     height: 250px;
+    padding-top: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
     overflow: hidden;
