@@ -96,6 +96,19 @@ body {
 }
 
 
+.main-container {
+
+    max-width: 900px;
+
+    margin: 50px auto;
+
+    display: grid;
+
+    gap: 30px;
+
+}
+
+
 
 /* =========================
    BLOCS DE REDIRECTION
@@ -115,6 +128,7 @@ body {
     gap: 30px;
 
 }
+
 
 
 
