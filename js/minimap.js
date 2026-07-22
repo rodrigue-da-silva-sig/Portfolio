@@ -4,7 +4,12 @@ const mapMini = L.map('mapMini', {
     scrollWheelZoom: true,
     doubleClickZoom: true,
     boxZoom: true,
-    keyboard: false
+    keyboard: false,
+    maxBounds: [
+        [-90, -180], 
+        [90, 180]    
+    ],
+    maxBoundsViscosity: 1.0
 }).setView([20, 0], 1);
 
 L.tileLayer(
