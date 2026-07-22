@@ -19,7 +19,7 @@ L.tileLayer(
     }
 ).addTo(mapMini2);
 
-<!--fetch("js/SSD.geojson")
+*/fetch("js/SSD.geojson")
   .then(response => response.json())
   .then(data => {
 
@@ -55,4 +55,4 @@ marker2.bindPopup(`
      <a href="projects/experience2.html"><strong>
         Voir les réalisations du projet
     </strong></a>
-`);-->
+`);/*
