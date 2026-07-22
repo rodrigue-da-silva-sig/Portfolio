@@ -54,5 +54,8 @@ marker2.bindPopup(`
      <p><strong>Mission: Participation au projet scientifique CAPRO_TNS: ¨Problématique de l'économie cacaoyère à l'interface des aires protégées dans le Tri-National de la Sangha</strong>&nbsp;</p>
      <p><strong>Zone d'étude:</strong>&nbsp;Tri-National de la Sangha (Bassin du Congo)</p>
      <p><strong>Lieux de travail:</strong>&nbsp;</br>-Yaoundé, Mfoundi, Cameroun</br>-Paris, Paris, France</p>
-`);
+`,{
+    autoPan: true,
+    keepInView: true
+});
 
