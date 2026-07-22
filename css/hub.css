@@ -284,17 +284,24 @@ body {
 
 
 .mini-carte {
+    
     width: 350px;
+    
     height: 250px;
-    padding-top: 10px;
+    
     border: 1px solid #ccc;
+    
     border-radius: 10px;
+    
     overflow: hidden;
+    
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
 #mapMini {
+    
     width: 100%;
+    
     height: 100%;
 }
 
@@ -312,6 +319,9 @@ body {
 
 
     margin-top:15px;
+
+    
+    margin-bottom:15px;
 
 
     padding:12px 25px;
