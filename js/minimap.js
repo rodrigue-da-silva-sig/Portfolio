@@ -1,9 +1,9 @@
 const mapMini = L.map('mapMini', {
-    zoomControl: false,
-    dragging: false,
-    scrollWheelZoom: false,
-    doubleClickZoom: false,
-    boxZoom: false,
+    zoomControl: true,
+    dragging: true,
+    scrollWheelZoom: true,
+    doubleClickZoom: true,
+    boxZoom: true,
     keyboard: false
 }).setView([20, 0], 1);
 
