@@ -43,7 +43,10 @@ marker1.bindPopup(`
     <p><strong>Mission:</strong>&nbsp;Accessiblité et valorisation du patrimoine d'eau de surface du département dans le cadre de la politique Seine-Saint-Denis, territoire d'eau&nbsp;</p>
     <p><strong>Zone d'étude:</strong>&nbsp;Seine-Saint-Denis (France)</p>
     <p><strong>Lieu de travail:</strong>&nbsp;Rosny-sous-Bois,Seine-Saint-Denis, France</p>
-`);
+`,{
+    autoPan: true,
+    keepInView: true
+});
            
 var marker2 = L.marker([2.15, 15.80]).addTo(mapMini);
 marker2.bindPopup(`
