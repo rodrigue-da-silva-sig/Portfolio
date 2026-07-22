@@ -305,7 +305,7 @@ body {
     height: 100%;
 }
 
-.leaflet-popup-content {
+.leaflet-popup-content p {
     font-size: 10px;
 }
 
