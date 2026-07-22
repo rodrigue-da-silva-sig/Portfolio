@@ -5,7 +5,7 @@ const mapMini = L.map('mapMini', {
     doubleClickZoom: false,
     boxZoom: false,
     keyboard: false
-}).setView([20, 0], 2);
+}).setView([20, 0], 1);
 
 L.tileLayer(
     'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
