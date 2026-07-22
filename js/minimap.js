@@ -18,7 +18,7 @@ fetch("js/SSD.geojson")
   .then(response => response.json())
   .then(data => {
 
-    L.geoJSON(data).addTo(map);
+    L.geoJSON(data).addTo(mapMini);
 
   })
   .catch(error => console.error("Erreur GeoJSON :", error));
@@ -27,7 +27,7 @@ fetch("js/TNS.geojson")
   .then(response => response.json())
   .then(data => {
 
-    L.geoJSON(data).addTo(map);
+    L.geoJSON(data).addTo(mapMini);
 
   })
   .catch(error => console.error("Erreur GeoJSON :", error));
