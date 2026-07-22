@@ -309,6 +309,10 @@ body {
     font-size: 10px;
 }
 
+.leaflet-popup-content h3 {
+    font-size: 10px;
+}
+
 
 
 
