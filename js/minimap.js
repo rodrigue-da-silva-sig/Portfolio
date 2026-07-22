@@ -52,7 +52,7 @@ marker2.bindPopup(`
      <h3>Expérience Professionnelle 2: Fondation pour le Tri-National de la Sangha (02/2025-04/2026)</h3>
      <p><strong>Projet:</strong>&nbsp;Participation au projet scientifique CAPRO_TNS: ¨Problématique de l'économie cacaoyère à l'interface des aires protégées dans le Tri-National de la Sangha</strong>&nbsp;</p>
      <p><strong>Zone d'étude:</strong>&nbsp;Tri-National de la Sangha (Bassin du Congo)</p>
-     <a href="projects/experience1.html"><strong>
+     <a href="projects/experience2.html"><strong>
         Voir les réalisations du projet
     </strong></a>
 `);
