@@ -40,8 +40,8 @@ marker1.bindPopup(`
     <p><strong>Lieu de travail:</strong>&nbsp;Rosny-sous-Bois,Seine-Saint-Denis(93)</p></br>
 `);
            
-var marker1 = L.marker([2.15, 15.80]).addTo(mapMini);
-marker.bindPopup(`
+var marker2 = L.marker([2.15, 15.80]).addTo(mapMini);
+marker2.bindPopup(`
      <h3>Fondation pour le Tri-National de la Sangha (02/2025-04/2026)</h3></br>
      <p><strong>Mission: Participation au projet scientifique CAPRO_TNS: ¨Problématique de l'économie cacaoyère à l'interface des aires protégées dans le Tri-National de la Sangha</strong>&nbsp; </p></br>
      <p><strong>Zone d'étude:</strong>&nbsp;Tri-National de la Sangha (Bassin du Congo)</p></br>
