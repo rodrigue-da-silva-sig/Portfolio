@@ -306,12 +306,21 @@ body {
 }
 
 .leaflet-popup-content p {
+    
     font-size: 10px;
 }
 
 .leaflet-popup-content h3 {
+    
     font-size: 10px;
 }
+
+.leaflet-popup-content a {
+    
+    font-size: 10px;
+}
+
+
 
 
 
