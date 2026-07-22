@@ -50,6 +50,6 @@ marker2.bindPopup(`
      <h3>Expérience Professionnelle 2: Fondation pour le Tri-National de la Sangha (02/2025-04/2026)</h3>
      <p><strong>Mission: Participation au projet scientifique CAPRO_TNS: ¨Problématique de l'économie cacaoyère à l'interface des aires protégées dans le Tri-National de la Sangha</strong>&nbsp;</p>
      <p><strong>Zone d'étude:</strong>&nbsp;Tri-National de la Sangha (Bassin du Congo)</p>
-     <p><strong>Lieux de travail:</strong>&nbsp;</br>-Yaoundé, Mfoundi, Cameroun<:br>-Paris, Paris, France</p>
+     <p><strong>Lieux de travail:</strong>&nbsp;</br>-Yaoundé, Mfoundi, Cameroun</br>-Paris, Paris, France</p>
 `);
 
