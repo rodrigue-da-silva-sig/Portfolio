@@ -14,4 +14,5 @@ L.tileLayer(
     }
 ).addTo(mapMini);
 
-L.marker([48.8566, 2.3522]).addTo(mapMini);
+L.marker([48.8703, 2.4897]).addTo(mapMini);
+L.marker([2.15, 15.80]).addTo(mapMini);
